@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Calculadora MA</title>
+  </head>
+  <body>
+    <hr>
+    <h1>Calculadora</h1>
+    <hr>
+    <main id="main-container">
+      <div class="operations">
+        <select id="select-operation">
+          <option value="+">Suma</option>
+          <option value="-">Resta</option>
+          <option value="*">Multiplicacion</option>
+          <option value="/">Division</option>
+          <option value="%">Modulo</option>
+        </select>
+        <input type="number" placeholder="Ingrese un numero" required name="operation" id="numberOne" />
+        <input type="number" placeholder="Ingrese un numero" required name="operation" id="numberTwo" />
+        <p id="result">Resultado</p>
+        <hr>
+      </div>
+      <!-- <input type="checkbox" name="residuo" id="residuo">Con residuo -->
+    </main>
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
